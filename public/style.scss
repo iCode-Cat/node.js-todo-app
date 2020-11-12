@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}   
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 2rem;
+    input{
+        min-width: 300px;
+        height: 36px;
+    }
+}
+
+.list-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    margin-top: 3rem;
+}
+.li-container{
+
+    display: flex;
+    align-items: center;
+    min-width: 280px;
+    gap: 2px;
+    
+}
+
+.list-group-item{
+    max-width: 200px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+button{
+    min-width: 60px;
+}
+
+//class for toggle
+.toggle-opacity{
+    opacity: 50%;
+}
