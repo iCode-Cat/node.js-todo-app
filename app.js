@@ -3,7 +3,7 @@ const mongoose = require(`mongoose`);
 const bodyParser = require(`body-parser`);
 const Do = require(`./Model/Do`);
 const User = require('./Model/User')
-const dbURI = `mongodb+srv://test123:test123@cluster0.chn8e.mongodb.net/todo?retryWrites=true&w=majority`;
+const dbURI = `database`;
 mongoose.connect(dbURI, {
         useNewUrlParser: true,
         useUnifiedTopology: true
